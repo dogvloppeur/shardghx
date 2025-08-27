@@ -3,7 +3,7 @@
 float data[] = {2, 4, 1, 5, 3, 6, 7, 4, 2, 1, 0.5, 3.5, 5.5, 6.5};
 
 int main() {
-    ghx_open_window(800, 600, "ShardGHX NumPy + Plot");
+    ghx_open_window(800, 600, "ShardGHX");
 
     while (!ghx_should_close()) {
         ghx_render_begin();
